@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon"
+    href="data:image/png;base64,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">
+
+  <title> Bootstrap text page</title>
+
+  <!-- Principal CSS do Bootstrap -->
+  <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Estilos customizados para esse template -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <!-- Nav bar -->
+  <nav class="site-header sticky-top py-1">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
+          <line x1="9.69" y1="8" x2="21.17" y2="8"></line>
+          <line x1="7.38" y1="12" x2="13.12" y2="2.06"></line>
+          <line x1="9.69" y1="16" x2="3.95" y2="6.06"></line>
+          <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
+          <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
+        </svg>
+      </a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Produto</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Premium</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Suporte</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Preços</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Carrinho</a>
+    </div>
+  </nav>
+  <!-- Nav bar -->
+
+
+  <!-- Carrosel -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4"></h1>
+      <img class="d-block w-30 mx-auto mt-9"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaWaquOx9ze9BVn0gqF3txtYfU0W5jzyHKpsCV9s8YKkI2uU7UjfUzNmU6Z4dQWGc58g&usqp=CAU"
+        alt="Iphone 13 logo">
+      <h3 class="texto"> É todo Pro.</h3>
+      <p class="link"> Saiba mais > Comprar ></p>
+    </div>
+  </div>
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-80" src="https://olhardigital.com.br/wp-content/uploads/2022/03/iPhonw13verde.jpg"
+          alt="Iphone 13">
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4"></h1>
+        <img class="d-block w-30 mx-auto" src="https://www.ishop.mu/wp-content/uploads/2020/05/LogoSE-01-300x134.png"
+          alt="Iphone SE logo">
+        <h3 class="texto"> Tão Poderoso. Tão ao seu alcance</h3>
+        <p class="link"> Saiba mais > Comprar ></p>
+      </div>
+    </div>
+    <div id="carouselExampleFadese" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-50 mx-auto"
+            src="https://s2.glbimg.com/QuDR6EohypkhUW7hTrYI-MXslF8=/0x0:2880x1620/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/i/v/FsWuvmTvKlZShCgbAYyQ/apple-iphonese-double-infinity-220308.jpg"
+            alt="Iphone SE">
+        </div>
+      </div>
+
+
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4"></h1>
+          <img class="d-block w-30 mx-auto mt-9"
+            src="https://seeklogo.com/images/A/apple-watch-series-7-logo-23A00A88CD-seeklogo.com.png"
+            alt="Apple Watch logo">
+          <h3 class="texto mt-4"> Nossa maior tela até hoje.</h3>
+          <p class="link"> Saiba mais > Comprar ></p>
+        </div>
+      </div>
+
+      <div id="carouselExampleFadese" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-50 mx-auto "
+              src="https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_hero_09142021_big.jpg.slideshow-xlarge.jpg"
+              alt="Apple Watch">
+          </div>
+        </div>
+        <!-- Carrosel -->
+
+        <!-- Card -->
+
+        <div class="card-group">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title texto "></h5>
+              <img class="d-block w-20 mx-auto"
+                src="data:image/png;base64,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"
+                alt="Air logo">
+              <p class="card-text texto mt-3">Cor e potência no ar. </p>
+              <p class="link"> Saiba mais > Comprar ></p>
+            </div>
+            <img class=" d-block w-50 mx-auto  "
+              src="https://macmagazine.com.br/wp-content/uploads/2022/03/Apple-iPad-Air-hero-color-lineup-220308-800x800.jpg"
+              alt="Ipad">
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title texto "></h5>
+              <img class="d-block w-20 mx-auto"
+                src="data:image/png;base64,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"
+                alt="Air logo">
+              <p class="card-text texto mt-3">Transforme o mundo no seu playground </p>
+              <p class="link"> Comprar ></p>
+            </div>
+            <img class=" d-block w-50 mx-auto  "
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThG4QoUPhvbt-BJyxph3fQVuGoM38ea1vr2k96HDsFZkmGaZcPPTlzVa1k5X_PAaLqyuE&usqp=CAU"
+              alt="Ipad">
+          </div>
+        </div>
+
+
+
+
+        <div class="card-group">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title texto titulo mt-3 "> Studio Display </h5>
+
+              <p class="card-text texto mt-3">Paixão à primeira vista. </p>
+              <p class="link"> Saiba mais> Comprar ></p>
+            </div>
+            <img class=" d-block w-60 mx-auto  "
+              src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/studio-display-og-202203?wid=600&hei=315&fmt=jpeg&qlt=95&.v=1645125507093"
+              alt="Ipad">
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title texto titulo mt-3 "> Mac Studio </h5>
+
+              <p class="card-text texto mt-3"> Usina criativa. </p>
+              <p class="link"> Saiba mais> Comprar ></p>
+            </div>
+            <img class=" d-block w-50 mx-auto  "
+              src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-studio-select-202203?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1645739294025"
+              alt="Ipad">
+          </div>
+        </div>
+
+
+
+
+
+        <div class="card-group">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title texto "></h5>
+              <img class="d-block w-30 mx-auto mt-2"
+                src="https://www.apple.com/v/tv-home/b/images/overview/apple_tv_4k_logo__vyjj7uki3tui_large.png"
+                alt="Air logo">
+              <p class="card-text texto texto titulo mt-3"> Redefinindo <br> a alta definição.</p>
+              <p class="card-text texto mt-3">A partir de R$ 2.399 </p>
+              <p class="link"> Saiba mais> Comprar ></p>
+            </div>
+            <img class=" d-block w-60 mx-auto  "
+              src="https://www.apple.com/v/tv-home/b/images/overview/higher_definition__hfivribdc3ue_large.jpg"
+              alt="Ipad">
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title texto "></h5>
+              <img class="d-block w-30 mx-auto mt-2"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9B-dnNCRSV6LOAovXfxHiTUpkzAtJOfCh-3UPyvlbEgbHT_NRSnWiaLZXWdvg1stRmg&usqp=CAU"
+                alt="Air logo">
+              <p class="card-text texto texto titulo mt-3"> Você não perde <br> por usar.</p>
+              <p class="card-text texto mt-3"> A partir de R$ 358</p>
+              <p class="link"> Saiba mais> Comprar ></p>
+            </div>
+            <img class=" d-block w-60  mx-auto  "
+              src="https://http2.mlstatic.com/D_NQ_NP_720498-MLB46183709929_052021-O.jpg"
+              alt="Ipad">
+          </div>
+        </div>
+
+
+
+        <div class="card-group bg74">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title texto titulo mt-3 "> Studio Display </h5>
+
+              <p class="card-text texto mt-3">Paixão à primeira vista. </p>
+              <p class="link"> Saiba mais> Comprar ></p>
+            </div>
+            <img class=" d-block w-60 mx-auto  "
+              src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/studio-display-og-202203?wid=600&hei=315&fmt=jpeg&qlt=95&.v=1645125507093"
+              alt="Ipad">
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title texto titulo mt-3 "> Mac Studio </h5>
+
+              <p class="card-text texto mt-3"> Usina criativa. </p>
+              <p class="link"> Saiba mais> Comprar ></p>
+            </div>
+            <img class=" d-block w-50 mx-auto  "
+              src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-studio-select-202203?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1645739294025"
+              alt="Ipad">
+          </div>
+        </div>
+
+
+
+
+
+
+
+          <!-- Footer -->
+          <footer class="container py-5 ">
+            <div class="row">
+              <div class="col-12 col-md">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="d-block mb-2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
+                  <line x1="9.69" y1="8" x2="21.17" y2="8"></line>
+                  <line x1="7.38" y1="12" x2="13.12" y2="2.06"></line>
+                  <line x1="9.69" y1="16" x2="3.95" y2="6.06"></line>
+                  <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
+                  <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
+                </svg>
+                <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+              </div>
+              <div class="col-6 col-md">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="#">Algo legal</a></li>
+                  <li><a class="text-muted" href="#">Feature aleatória</a></li>
+                  <li><a class="text-muted" href="#">Recursos para times</a></li>
+                  <li><a class="text-muted" href="#">Coisas para desenvolvedores</a></li>
+                  <li><a class="text-muted" href="#">Outra coisa legal</a></li>
+                  <li><a class="text-muted" href="#">Último item</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5>Fontes</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="#">Fonte</a></li>
+                  <li><a class="text-muted" href="#">Nome da fonte</a></li>
+                  <li><a class="text-muted" href="#">Outra fonte</a></li>
+                  <li><a class="text-muted" href="#">Fonte final</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5>Fontes</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="#">Negócios</a></li>
+                  <li><a class="text-muted" href="#">Educação</a></li>
+                  <li><a class="text-muted" href="#">Governo</a></li>
+                  <li><a class="text-muted" href="#">Jogos</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5>Sobre</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="#">Equipe</a></li>
+                  <li><a class="text-muted" href="#">Locais</a></li>
+                  <li><a class="text-muted" href="#">Privacidade</a></li>
+                  <li><a class="text-muted" href="#">Termos</a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+          <!-- Footer -->
+
+          <!-- Principal JavaScript do Bootstrap
+    ================================================== -->
+          <!-- Foi colocado no final para a página carregar mais rápido -->
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+          <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+          <script src="../../assets/js/vendor/popper.min.js"></script>
+          <script src="../../dist/js/bootstrap.min.js"></script>
+          <script src="../../assets/js/vendor/holder.min.js"></script>
+          <script>
+            Holder.addTheme('thumb', {
+              bg: '#55595c',
+              fg: '#eceeef',
+              text: 'Thumbnail'
+            });
+          </script>
+</body>
+
+</html>
